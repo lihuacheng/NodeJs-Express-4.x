@@ -1,0 +1,345 @@
+[2016-05-13 11:56:39.019] [INFO] nomel - GET/qryCountry
+[2016-05-13 11:58:01.829] [INFO] nomel - GET/qryCountry?qq=1
+[2016-05-13 14:38:01.283] [WARN] nomel - GET/qryCountry?qq=1
+[2016-05-13 14:38:07.563] [WARN] nomel - GET/qryCountry
+[2016-05-13 18:11:25.846] [WARN] nomel - GET/qryCountry
+[2016-05-16 20:39:59.179] [INFO] nomel - GET/
+[2016-05-16 20:39:59.245] [WARN] nomel - GET/stylesheets/style.css
+[2016-05-16 20:39:59.406] [ERROR] nomel - GET/favicon.ico
+[2016-05-16 20:40:24.238] [INFO] countryDao - { [Error: ER_BAD_DB_ERROR: Unknown database 'demo']
+  code: 'ER_BAD_DB_ERROR',
+  errno: 1049,
+  sqlState: '42000',
+  fatal: true }
+Error: ER_BAD_DB_ERROR: Unknown database 'demo'
+    at Handshake.Sequence._packetToError (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Handshake.ErrorPacket (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\sequences\Handshake.js:101:18)
+    at Protocol._parsePacket (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\Parser.js:73:12)
+    at Protocol.write (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\Connection.js:96:28)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at Socket.Readable.push (_stream_readable.js:111:10)
+    --------------------
+    at Protocol._enqueue (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+    at PoolConnection.connect (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\Connection.js:123:18)
+    at Pool.getConnection (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\Pool.js:45:23)
+    at getConnection (e:\workspace\javascripts\nodejs-demo\dao\nodeuserDao.js:15:7)
+    at Object.qryCountry (e:\workspace\javascripts\nodejs-demo\dao\nodeuserDao.js:56:2)
+    at e:\workspace\javascripts\nodejs-demo\routes\index.js:15:13
+    at Layer.handle [as handle_request] (e:\workspace\javascripts\nodejs-demo\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\workspace\javascripts\nodejs-demo\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (e:\workspace\javascripts\nodejs-demo\node_modules\express\lib\router\route.js:112:3)
+[2016-05-16 20:41:01.809] [INFO] countryDao - { [Error: ER_BAD_DB_ERROR: Unknown database 'demo']
+  code: 'ER_BAD_DB_ERROR',
+  errno: 1049,
+  sqlState: '42000',
+  fatal: true }
+Error: ER_BAD_DB_ERROR: Unknown database 'demo'
+    at Handshake.Sequence._packetToError (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Handshake.ErrorPacket (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\sequences\Handshake.js:101:18)
+    at Protocol._parsePacket (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\Parser.js:73:12)
+    at Protocol.write (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\Connection.js:96:28)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at Socket.Readable.push (_stream_readable.js:111:10)
+    --------------------
+    at Protocol._enqueue (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+    at PoolConnection.connect (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\Connection.js:123:18)
+    at Pool.getConnection (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\Pool.js:45:23)
+    at getConnection (e:\workspace\javascripts\nodejs-demo\dao\nodeuserDao.js:15:7)
+    at Object.qryCountry (e:\workspace\javascripts\nodejs-demo\dao\nodeuserDao.js:56:2)
+    at e:\workspace\javascripts\nodejs-demo\routes\index.js:15:13
+    at Layer.handle [as handle_request] (e:\workspace\javascripts\nodejs-demo\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\workspace\javascripts\nodejs-demo\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (e:\workspace\javascripts\nodejs-demo\node_modules\express\lib\router\route.js:112:3)
+[2016-05-16 20:41:07.535] [INFO] countryDao - { [Error: ER_BAD_DB_ERROR: Unknown database 'demo']
+  code: 'ER_BAD_DB_ERROR',
+  errno: 1049,
+  sqlState: '42000',
+  fatal: true }
+Error: ER_BAD_DB_ERROR: Unknown database 'demo'
+    at Handshake.Sequence._packetToError (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Handshake.ErrorPacket (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\sequences\Handshake.js:101:18)
+    at Protocol._parsePacket (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\Parser.js:73:12)
+    at Protocol.write (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\Connection.js:96:28)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at Socket.Readable.push (_stream_readable.js:111:10)
+    --------------------
+    at Protocol._enqueue (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+    at PoolConnection.connect (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\Connection.js:123:18)
+    at Pool.getConnection (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\Pool.js:45:23)
+    at getConnection (e:\workspace\javascripts\nodejs-demo\dao\nodeuserDao.js:15:7)
+    at Object.qryCountry (e:\workspace\javascripts\nodejs-demo\dao\nodeuserDao.js:56:2)
+    at e:\workspace\javascripts\nodejs-demo\routes\index.js:15:13
+    at Layer.handle [as handle_request] (e:\workspace\javascripts\nodejs-demo\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\workspace\javascripts\nodejs-demo\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (e:\workspace\javascripts\nodejs-demo\node_modules\express\lib\router\route.js:112:3)
+[2016-05-16 20:41:26.620] [INFO] nomel - GET/qryCountry
+[2016-05-16 20:41:28.360] [WARN] nomel - GET/qryCountry
+[2016-05-16 20:43:21.938] [INFO] nomel - GET/qryCountry
+[2016-05-30 17:34:41.380] [WARN] nomel - GET/
+[2016-05-30 17:34:41.397] [WARN] nomel - GET/stylesheets/style.css
+[2016-05-30 17:34:41.567] [ERROR] nomel - GET/favicon.ico
+[2016-05-30 17:34:53.794] [ERROR] nomel - GET/index.html
+[2016-05-30 17:35:53.713] [ERROR] nomel - GET/view/index.html
+[2016-05-30 17:36:03.561] [ERROR] nomel - GET/view/index
+[2016-05-30 17:46:20.396] [WARN] nomel - GET/qryCountry
+[2016-05-30 18:01:43.715] [INFO] nomel - GET/users/
+[2016-05-30 18:02:05.774] [WARN] nomel - GET/users/
+[2016-05-30 18:02:05.787] [ERROR] nomel - GET/users/home/home
+[2016-05-30 18:03:12.756] [WARN] nomel - GET/users/
+[2016-05-30 18:03:12.774] [ERROR] nomel - GET/home
+[2016-05-30 18:03:29.126] [WARN] nomel - GET/users/
+[2016-05-30 18:03:29.135] [ERROR] nomel - GET/home
+[2016-05-30 18:03:46.876] [WARN] nomel - GET/users/
+[2016-05-30 18:03:46.890] [ERROR] nomel - GET/home/home
+[2016-05-30 18:04:43.835] [ERROR] nomel - GET/home/home
+[2016-05-30 18:04:50.081] [ERROR] nomel - GET/users/
+[2016-05-30 18:05:56.438] [INFO] nomel - GET/users/
+[2016-05-30 18:05:56.463] [ERROR] nomel - GET/stylesheet/home.css
+[2016-05-30 18:05:56.464] [ERROR] nomel - GET/javascripts/home.js
+[2016-05-30 18:05:56.469] [INFO] nomel - GET/images/logo-main-size.png
+[2016-05-30 18:05:56.514] [INFO] nomel - GET/images/search.png
+[2016-05-30 18:05:56.517] [INFO] nomel - GET/images/Shape.png
+[2016-05-30 18:05:56.524] [INFO] nomel - GET/images/slider1.jpg
+[2016-05-30 18:05:56.526] [INFO] nomel - GET/images/slider2.jpg
+[2016-05-30 18:05:56.527] [INFO] nomel - GET/images/Path-left.png
+[2016-05-30 18:05:56.530] [INFO] nomel - GET/images/Path-right.png
+[2016-05-30 18:05:56.533] [INFO] nomel - GET/images/tejia.png
+[2016-05-30 18:05:56.537] [INFO] nomel - GET/images/slider.png
+[2016-05-30 18:05:56.539] [INFO] nomel - GET/images/Group.png
+[2016-05-30 18:05:56.540] [INFO] nomel - GET/images/headimg.png
+[2016-05-30 18:05:56.546] [INFO] nomel - GET/images/register.png
+[2016-05-30 18:05:56.550] [INFO] nomel - GET/images/todayselection.png
+[2016-05-30 18:05:56.556] [INFO] nomel - GET/images/product-first.png
+[2016-05-30 18:05:56.558] [INFO] nomel - GET/images/product-list.png
+[2016-05-30 18:05:56.559] [INFO] nomel - GET/images/newproduct.png
+[2016-05-30 18:05:56.561] [INFO] nomel - GET/images/product-last.png
+[2016-05-30 18:05:56.565] [INFO] nomel - GET/images/hotcon.png
+[2016-05-30 18:05:56.567] [INFO] nomel - GET/images/hot-product.png
+[2016-05-30 18:05:56.572] [INFO] nomel - GET/images/2016qiu.png
+[2016-05-30 18:05:56.663] [INFO] nomel - GET/images/2016chun.png
+[2016-05-30 18:06:01.782] [ERROR] nomel - GET/stylesheet/home.css
+[2016-05-30 18:06:04.411] [WARN] nomel - GET/users/
+[2016-05-30 18:06:04.436] [ERROR] nomel - GET/stylesheet/home.css
+[2016-05-30 18:06:04.444] [WARN] nomel - GET/images/logo-main-size.png
+[2016-05-30 18:06:04.449] [WARN] nomel - GET/images/Shape.png
+[2016-05-30 18:06:04.450] [WARN] nomel - GET/images/slider.png
+[2016-05-30 18:06:04.450] [WARN] nomel - GET/images/slider1.jpg
+[2016-05-30 18:06:04.451] [WARN] nomel - GET/images/slider2.jpg
+[2016-05-30 18:06:04.452] [WARN] nomel - GET/images/search.png
+[2016-05-30 18:06:04.463] [ERROR] nomel - GET/javascripts/home.js
+[2016-05-30 18:06:04.464] [WARN] nomel - GET/images/Path-left.png
+[2016-05-30 18:06:04.465] [WARN] nomel - GET/images/Path-right.png
+[2016-05-30 18:06:04.466] [WARN] nomel - GET/images/tejia.png
+[2016-05-30 18:06:04.467] [WARN] nomel - GET/images/Group.png
+[2016-05-30 18:06:04.469] [WARN] nomel - GET/images/headimg.png
+[2016-05-30 18:06:04.475] [WARN] nomel - GET/images/register.png
+[2016-05-30 18:06:04.479] [WARN] nomel - GET/images/todayselection.png
+[2016-05-30 18:06:04.480] [WARN] nomel - GET/images/product-first.png
+[2016-05-30 18:06:04.483] [WARN] nomel - GET/images/product-list.png
+[2016-05-30 18:06:04.484] [WARN] nomel - GET/images/product-last.png
+[2016-05-30 18:06:04.486] [WARN] nomel - GET/images/newproduct.png
+[2016-05-30 18:06:04.489] [WARN] nomel - GET/images/2016chun.png
+[2016-05-30 18:06:04.491] [WARN] nomel - GET/images/2016qiu.png
+[2016-05-30 18:06:04.491] [WARN] nomel - GET/images/hotcon.png
+[2016-05-30 18:06:04.497] [WARN] nomel - GET/images/hot-product.png
+[2016-05-30 18:07:03.804] [WARN] nomel - GET/
+[2016-05-30 18:07:03.829] [WARN] nomel - GET/stylesheets/style.css
+[2016-05-30 18:08:44.100] [INFO] nomel - GET/users/
+[2016-05-30 18:08:44.128] [WARN] nomel - GET/images/logo-main-size.png
+[2016-05-30 18:08:44.132] [WARN] nomel - GET/images/search.png
+[2016-05-30 18:08:44.134] [INFO] nomel - GET/stylesheets/home.css
+[2016-05-30 18:08:44.139] [WARN] nomel - GET/images/Shape.png
+[2016-05-30 18:08:44.140] [WARN] nomel - GET/images/slider.png
+[2016-05-30 18:08:44.141] [INFO] nomel - GET/javascripts/home/home.js
+[2016-05-30 18:08:44.147] [WARN] nomel - GET/images/slider1.jpg
+[2016-05-30 18:08:44.148] [WARN] nomel - GET/images/slider2.jpg
+[2016-05-30 18:08:44.150] [WARN] nomel - GET/images/Path-left.png
+[2016-05-30 18:08:44.153] [WARN] nomel - GET/images/Path-right.png
+[2016-05-30 18:08:44.153] [WARN] nomel - GET/images/tejia.png
+[2016-05-30 18:08:44.155] [WARN] nomel - GET/images/Group.png
+[2016-05-30 18:08:44.167] [WARN] nomel - GET/images/headimg.png
+[2016-05-30 18:08:44.169] [WARN] nomel - GET/images/register.png
+[2016-05-30 18:08:44.170] [WARN] nomel - GET/images/todayselection.png
+[2016-05-30 18:08:44.171] [WARN] nomel - GET/images/product-first.png
+[2016-05-30 18:08:44.171] [WARN] nomel - GET/images/product-list.png
+[2016-05-30 18:08:44.173] [WARN] nomel - GET/images/product-last.png
+[2016-05-30 18:08:44.177] [WARN] nomel - GET/images/newproduct.png
+[2016-05-30 18:08:44.179] [WARN] nomel - GET/images/2016chun.png
+[2016-05-30 18:08:44.180] [WARN] nomel - GET/images/2016qiu.png
+[2016-05-30 18:08:44.181] [WARN] nomel - GET/images/hotcon.png
+[2016-05-30 18:08:44.183] [WARN] nomel - GET/images/hot-product.png
+[2016-05-30 18:09:07.220] [WARN] nomel - GET/stylesheets/home.css
+[2016-05-30 18:35:15.469] [WARN] nomel - GET/users/
+[2016-05-30 18:35:15.491] [WARN] nomel - GET/stylesheets/home.css
+[2016-05-30 18:35:15.493] [WARN] nomel - GET/images/logo-main-size.png
+[2016-05-30 18:35:15.496] [WARN] nomel - GET/javascripts/home/home.js
+[2016-05-30 18:35:15.499] [WARN] nomel - GET/images/search.png
+[2016-05-30 18:35:15.500] [WARN] nomel - GET/images/Shape.png
+[2016-05-30 18:35:15.502] [WARN] nomel - GET/images/slider.png
+[2016-05-30 18:35:15.507] [WARN] nomel - GET/images/slider1.jpg
+[2016-05-30 18:35:15.508] [WARN] nomel - GET/images/slider2.jpg
+[2016-05-30 18:35:15.512] [WARN] nomel - GET/images/Path-left.png
+[2016-05-30 18:35:15.512] [WARN] nomel - GET/images/Path-right.png
+[2016-05-30 18:35:15.513] [WARN] nomel - GET/images/tejia.png
+[2016-05-30 18:35:15.515] [WARN] nomel - GET/images/Group.png
+[2016-05-30 18:35:15.517] [WARN] nomel - GET/images/headimg.png
+[2016-05-30 18:35:15.519] [WARN] nomel - GET/images/todayselection.png
+[2016-05-30 18:35:15.520] [WARN] nomel - GET/images/register.png
+[2016-05-30 18:35:15.522] [WARN] nomel - GET/images/product-first.png
+[2016-05-30 18:35:15.525] [WARN] nomel - GET/images/product-list.png
+[2016-05-30 18:35:15.529] [WARN] nomel - GET/images/product-last.png
+[2016-05-30 18:35:15.531] [WARN] nomel - GET/images/newproduct.png
+[2016-05-30 18:35:15.532] [WARN] nomel - GET/images/2016qiu.png
+[2016-05-30 18:35:15.533] [WARN] nomel - GET/images/2016chun.png
+[2016-05-30 18:35:15.533] [WARN] nomel - GET/images/hotcon.png
+[2016-05-30 18:35:15.534] [WARN] nomel - GET/images/hot-product.png
+[2016-05-30 18:52:08.979] [WARN] nomel - GET/users/
+[2016-05-30 18:52:09.008] [WARN] nomel - GET/stylesheets/home.css
+[2016-05-30 18:52:09.009] [WARN] nomel - GET/images/logo-main-size.png
+[2016-05-30 18:52:09.033] [WARN] nomel - GET/images/search.png
+[2016-05-30 18:52:09.034] [WARN] nomel - GET/images/Shape.png
+[2016-05-30 18:52:09.036] [WARN] nomel - GET/images/slider1.jpg
+[2016-05-30 18:52:09.036] [WARN] nomel - GET/images/slider2.jpg
+[2016-05-30 18:52:09.038] [WARN] nomel - GET/javascripts/home/home.js
+[2016-05-30 18:52:09.041] [WARN] nomel - GET/images/slider.png
+[2016-05-30 18:52:09.046] [WARN] nomel - GET/images/product-list.png
+[2016-05-30 18:52:09.046] [WARN] nomel - GET/images/product-last.png
+[2016-05-30 18:52:09.047] [WARN] nomel - GET/images/product-first.png
+[2016-05-30 18:52:09.047] [WARN] nomel - GET/images/todayselection.png
+[2016-05-30 18:52:09.048] [WARN] nomel - GET/images/Path-left.png
+[2016-05-30 18:52:09.049] [WARN] nomel - GET/images/Path-right.png
+[2016-05-30 18:52:09.051] [WARN] nomel - GET/images/tejia.png
+[2016-05-30 18:52:09.053] [WARN] nomel - GET/images/headimg.png
+[2016-05-30 18:52:09.055] [WARN] nomel - GET/images/register.png
+[2016-05-30 18:52:09.059] [WARN] nomel - GET/images/Group.png
+[2016-05-30 18:52:09.065] [WARN] nomel - GET/images/newproduct.png
+[2016-05-30 18:52:09.067] [WARN] nomel - GET/images/2016qiu.png
+[2016-05-30 18:52:09.067] [WARN] nomel - GET/images/hotcon.png
+[2016-05-30 18:52:09.068] [WARN] nomel - GET/images/hot-product.png
+[2016-05-30 18:52:09.072] [WARN] nomel - GET/images/2016chun.png
+[2016-05-31 09:39:54.796] [WARN] nomel - GET/users/
+[2016-05-31 09:39:54.817] [WARN] nomel - GET/stylesheets/home.css
+[2016-05-31 09:39:54.821] [WARN] nomel - GET/javascripts/home/home.js
+[2016-05-31 09:39:54.972] [WARN] nomel - GET/images/logo-main-size.png
+[2016-05-31 09:39:55.024] [WARN] nomel - GET/images/search.png
+[2016-05-31 09:39:55.025] [WARN] nomel - GET/images/slider1.jpg
+[2016-05-31 09:39:55.029] [WARN] nomel - GET/images/product-list.png
+[2016-05-31 09:39:55.034] [WARN] nomel - GET/images/slider2.jpg
+[2016-05-31 09:39:55.041] [WARN] nomel - GET/images/Shape.png
+[2016-05-31 09:39:55.043] [WARN] nomel - GET/images/slider.png
+[2016-05-31 09:39:55.051] [WARN] nomel - GET/images/product-last.png
+[2016-05-31 09:39:55.053] [WARN] nomel - GET/images/product-first.png
+[2016-05-31 09:39:55.054] [WARN] nomel - GET/images/todayselection.png
+[2016-05-31 09:39:55.055] [WARN] nomel - GET/images/Path-left.png
+[2016-05-31 09:39:55.056] [WARN] nomel - GET/images/Path-right.png
+[2016-05-31 09:39:55.058] [WARN] nomel - GET/images/tejia.png
+[2016-05-31 09:39:55.068] [WARN] nomel - GET/images/headimg.png
+[2016-05-31 09:39:55.069] [WARN] nomel - GET/images/newproduct.png
+[2016-05-31 09:39:55.071] [WARN] nomel - GET/images/2016chun.png
+[2016-05-31 09:39:55.072] [WARN] nomel - GET/images/2016qiu.png
+[2016-05-31 09:39:55.073] [WARN] nomel - GET/images/register.png
+[2016-05-31 09:39:55.075] [WARN] nomel - GET/images/Group.png
+[2016-05-31 09:39:55.091] [WARN] nomel - GET/images/hot-product.png
+[2016-05-31 09:39:55.092] [WARN] nomel - GET/images/hotcon.png
+[2016-06-03 17:50:58.428] [WARN] nomel - GET/
+[2016-06-03 17:50:58.441] [WARN] nomel - GET/stylesheets/style.css
+[2016-06-03 17:50:58.693] [ERROR] nomel - GET/favicon.ico
+[2016-06-03 17:51:06.441] [INFO] countryDao - { [Error: ER_NO_SUCH_TABLE: Table 'nodejs.country' doesn't exist]
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlState: '42S02',
+  index: 0 }
+Error: ER_NO_SUCH_TABLE: Table 'nodejs.country' doesn't exist
+    at Query.Sequence._packetToError (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\Parser.js:73:12)
+    at Protocol.write (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\Connection.js:96:28)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at Socket.Readable.push (_stream_readable.js:111:10)
+    --------------------
+    at Protocol._enqueue (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\Connection.js:201:25)
+    at qryCall (e:\workspace\javascripts\nodejs-demo\dao\nodeuserDao.js:45:11)
+    at e:\workspace\javascripts\nodejs-demo\dao\nodeuserDao.js:19:3
+    at Handshake.onConnect (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\Pool.js:59:7)
+    at Handshake.Sequence.end (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Handshake.Sequence.OkPacket (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\Parser.js:73:12)
+    at Protocol.write (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+[2016-06-03 17:51:06.539] [INFO] nomel - GET/qryCountry
+[2016-06-03 18:34:34.149] [INFO] countryDao - { [Error: ER_NO_SUCH_TABLE: Table 'nodejs.country' doesn't exist]
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlState: '42S02',
+  index: 0 }
+Error: ER_NO_SUCH_TABLE: Table 'nodejs.country' doesn't exist
+    at Query.Sequence._packetToError (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\Parser.js:73:12)
+    at Protocol.write (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\Connection.js:96:28)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at Socket.Readable.push (_stream_readable.js:111:10)
+    --------------------
+    at Protocol._enqueue (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\Connection.js:201:25)
+    at qryCall (e:\workspace\javascripts\nodejs-demo\dao\nodeuserDao.js:45:11)
+    at e:\workspace\javascripts\nodejs-demo\dao\nodeuserDao.js:19:3
+    at Ping.onOperationComplete [as _callback] (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\Pool.js:99:5)
+    at Ping.Sequence.end (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\Parser.js:73:12)
+    at Protocol.write (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+[2016-06-03 18:34:34.157] [WARN] nomel - GET/qryCountry
+[2016-06-03 18:35:54.873] [INFO] countryDao - { [Error: ER_NO_SUCH_TABLE: Table 'nodejs.country' doesn't exist]
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlState: '42S02',
+  index: 0 }
+Error: ER_NO_SUCH_TABLE: Table 'nodejs.country' doesn't exist
+    at Query.Sequence._packetToError (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\Parser.js:73:12)
+    at Protocol.write (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\Connection.js:96:28)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at Socket.Readable.push (_stream_readable.js:111:10)
+    --------------------
+    at Protocol._enqueue (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\Connection.js:201:25)
+    at qryCall (e:\workspace\javascripts\nodejs-demo\dao\nodeuserDao.js:45:11)
+    at e:\workspace\javascripts\nodejs-demo\dao\nodeuserDao.js:19:3
+    at Ping.onOperationComplete [as _callback] (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\Pool.js:99:5)
+    at Ping.Sequence.end (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\Parser.js:73:12)
+    at Protocol.write (e:\workspace\javascripts\nodejs-demo\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+[2016-06-03 18:35:54.882] [WARN] nomel - GET/qryCountry
